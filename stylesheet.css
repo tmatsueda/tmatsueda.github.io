@@ -1,3 +1,23 @@
-.title {
-    color: #02ccba;
+header {
+    height: 100px;
+    background-color: rgba(100,100,100,0.9);
+    position: fixed;
+    top: 0;
+    z-index: 10;
 }
+
+.main-contents {
+    width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 100px;
+}
+
+.main-contents a {
+    border: 1px solid #777;
+    padding: 20px;
+}
+
